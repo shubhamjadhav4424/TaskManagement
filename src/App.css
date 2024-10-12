@@ -1,0 +1,52 @@
+.input_box{
+  border-radius: 40px;
+  border: 2px solid gray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 45px;
+  padding-right: 45px;
+  background: floralwhite;
+}
+.button_add{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 35px;
+  padding-right: 35px;
+  background: #12da18;
+  border: navajowhite;
+  border-radius: 25px;
+  color: white;
+  font-size: 20px;
+}
+
+.added_item{
+  font-size: 22px;
+}
+.delete_item{
+  height: 32px;
+}
+.added_item_div{
+  display: flex;
+  justify-content: space-between;
+  width: 365px;
+}
+.added_item_container{
+  display: flex;
+  justify-content: center;
+  background: floralwhite;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid;
+  align-items: center;
+}
+
+.todo_container{
+  display: grid;
+  gap: 35px;
+  background: #d4d4d46e;
+  width: 535px;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-radius: 10px;
+}
